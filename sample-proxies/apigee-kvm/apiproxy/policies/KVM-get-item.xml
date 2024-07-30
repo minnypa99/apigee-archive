@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations continueOnError="false" enabled="true" name="KVM-get-item" mapIdentifier="demomap">
+    <DisplayName>KVM-get-item</DisplayName>
+    <Scope>environment</Scope>
+    <ExpiryTimeInSecs>100</ExpiryTimeInSecs>
+    <Get assignTo="private.kvmval">
+        <Key>
+            <Parameter ref="request.queryparam.kvmkey"/>
+        </Key>
+    </Get>
+</KeyValueMapOperations>

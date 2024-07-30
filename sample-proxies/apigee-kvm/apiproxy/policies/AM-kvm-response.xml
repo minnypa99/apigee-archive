@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-kvm-response">
+    <DisplayName>AM-kvm-response</DisplayName>
+    <Set>
+        <Payload>{"{request.queryparam.kvmkey}": "{private.kvmval}"}</Payload>
+        <Headers>
+            <Header name="Content-Type">application/json</Header>
+        </Headers>
+        <StatusCode>200</StatusCode>
+        <ReasonPhrase/>
+    </Set>
+</AssignMessage>

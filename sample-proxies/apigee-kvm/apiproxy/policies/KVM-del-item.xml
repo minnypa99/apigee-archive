@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations continueOnError="false" enabled="true" name="KVM-del-item" mapIdentifier="demomap">
+    <DisplayName>KVM-del-item</DisplayName>
+    <Properties/>
+    <Scope>environment</Scope>
+    <ExpiryTimeInSecs>100</ExpiryTimeInSecs>
+    <Delete>
+        <Key>
+            <Parameter ref="request.queryparam.kvmkey"/>
+        </Key>
+    </Delete>
+</KeyValueMapOperations>

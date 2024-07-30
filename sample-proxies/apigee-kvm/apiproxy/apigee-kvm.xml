@@ -1,0 +1,20 @@
+<APIProxy revision="1" name="apigee-kvm">
+    <DisplayName>apigee-kvm</DisplayName>
+    <Description></Description>
+    <CreatedAt>1722251610159</CreatedAt>
+    <LastModifiedAt>1722252445991</LastModifiedAt>
+    <BasePaths>/v1/kvm</BasePaths>
+    <Policies>
+        <Policy>RF-UnknownRequest</Policy>
+        <Policy>EV-kvm-item</Policy>
+        <Policy>KVM-put-item</Policy>
+        <Policy>AM-kvm-success</Policy>
+        <Policy>KVM-get-item</Policy>
+        <Policy>AM-kvm-response</Policy>
+        <Policy>KVM-del-item</Policy>
+        <Policy>AM-kvm-del-response</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>kvm</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>
